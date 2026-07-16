@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Security headers for production
+  reactStrictMode: true,
+
+  // Security headers
   async headers() {
     return [
       {
@@ -10,6 +12,7 @@ const nextConfig: NextConfig = {
           { key: "X-Frame-Options", value: "DENY" },
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
           {
             key: "Content-Security-Policy",
             value: [
@@ -26,14 +29,15 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Required for Stellar SDK (Buffer polyfill)
+  // Webpack configuration for Stellar SDK
   webpack: (config) => {
     config.resolve.fallback = {
-      ...config.resolve.fallback,
+      ...(config.resolve.fallback || {}),
       buffer: require.resolve("buffer/"),
       stream: false,
       crypto: false,
     };
+
     return config;
   },
 };
