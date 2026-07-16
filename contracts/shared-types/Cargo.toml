@@ -1,19 +1,22 @@
 [package]
 name = "lumenlock-shared-types"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 publish = false
 authors = ["dev-rps"]
+description = "Shared data types and utilities for LumenLock smart contracts."
 repository = "https://github.com/dev-rps/lumenlock"
+license = "MIT"
 
 [lib]
 crate-type = ["rlib"]
 
 [features]
+default = []
 testutils = ["soroban-sdk/testutils"]
 
 [dependencies]
 soroban-sdk = { workspace = true }
 
 [dev-dependencies]
-soroban-sdk = { workspace = true }
+soroban-sdk = { workspace = true, features = ["testutils"] }
