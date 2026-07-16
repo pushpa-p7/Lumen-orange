@@ -1,15 +1,18 @@
 [package]
 name = "lumenlock-escrow-vault"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 publish = false
 authors = ["dev-rps"]
+description = "Escrow vault smart contract for the LumenLock marketplace."
 repository = "https://github.com/dev-rps/lumenlock"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [features]
+default = []
 testutils = [
     "soroban-sdk/testutils",
     "lumenlock-shared-types/testutils",
