@@ -5,13 +5,19 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  // Override default ignores of eslint-config-next.
+
+  // Project-specific ignore patterns.
+  // Keeps generated files out of the linting process.
   globalIgnores([
-    // Default ignores of eslint-config-next:
+    // Next.js generated files
     ".next/**",
     "out/**",
     "build/**",
     "next-env.d.ts",
+
+    // Package manager & deployment artifacts
+    "coverage/**",
+    "dist/**",
   ]),
 ]);
 
