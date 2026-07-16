@@ -4,7 +4,7 @@
 >
 > _Stellar Orange Belt Level Application — Production-Ready_
 
-[![CI Pipeline](https://github.com/ashok-a7/Orange-lvl-3/actions/workflows/ci.yml/badge.svg)](https://github.com/ashok-a7/Orange-lvl-3/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/ci.yml/badge.svg)](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/ci.yml)
 
 ### 🌐 Live Demo & Deployments
 
@@ -31,12 +31,14 @@ We have built LumenLock to be fully production-ready, featuring a desktop and mo
 #### 🖥️ Desktop UI
 Our web application features a premium, responsive dashboard for desktop screens, optimized for managing listings, escrows, and disputes.
 
-<img width="850" alt="LumenLock Desktop Interface" src="https://github.com/user-attachments/assets/917c4642-29ea-4796-8b4e-4e437fbac178" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afb3c6fc-ce15-4bf5-91a3-d3607db4e8ad" />
+
 
 #### 📱 Mobile Responsive UI
 Our web application is optimized for mobile devices, supporting native Freighter wallet connections and responsive views for P2P interactions.
 
-<img width="360" alt="LumenLock Mobile Interface" src="https://github.com/user-attachments/assets/394d7803-fc37-4949-b9dd-897b4980a281" />
+<img width="519" height="876" alt="image" src="https://github.com/user-attachments/assets/5400201b-96fc-4ccb-8e33-c35e6cbde75b" />
+
 
 #### 📽️ Demo Video
 Here is a 1-2 minute video walk-through demonstrating mobile navigation and wallet interactions.
@@ -47,8 +49,8 @@ https://github.com/user-attachments/assets/9da25713-2af6-4490-aa37-b871a35ed7f7
 Our comprehensive test suite validates both smart contracts (Rust/Soroban) and frontend components (Vitest). All tests are currently passing successfully.
 ![Passing Test Outputs](./docs/assets/test_output_cli.png)
 
-[![PR Checks](https://github.com/ashok-a7/lumenlock/actions/workflows/pr-checks.yml/badge.svg)](https://github.com/ashok-a7/Orange-lvl-3/actions/workflows/pr-checks.yml)
-[![Deploy](https://github.com/ashok-a7/lumenlock/actions/workflows/deploy.yml/badge.svg)](https://github.com/ashok-a7/Orange-lvl-3/actions/workflows/ci.yml)
+[![PR Checks](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/pr-checks.yml/badge.svg)](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/pr-checks.yml)
+[![Deploy](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/deploy.yml/badge.svg)](https://github.com/pushpa-p7/Lumen-orange/actions/workflows/ci.yml)
 
 ---
 
@@ -574,8 +576,8 @@ MIT — See [LICENSE](./LICENSE)
 
 ---
 
-- **Author**: ashok-a7
-- **Repository**: [https://github.com/ashok-a7/Orange-lvl-3](https://github.com/ashok-a7/Orange-lvl-3)
+- **Author**: pushpa-p7
+- **Repository**: [https://github.com/pushpa-p7/Lumen-orange](https://github.com/pushpa-p7/Lumen-orange)
 
 ---
 
